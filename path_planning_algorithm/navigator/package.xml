@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>path_planning</name>
+  <version>0.0.2</version>
+  <description>The path_planning package</description>
+  <maintainer email="owais.rehman7@yahoo.com">Owais</maintainer>
+  <license>BSD</license>
+  <author email="owais.rehman7@yahoo.com">Owais</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>map_server</run_depend>
+ 
+  <export></export>
+</package>

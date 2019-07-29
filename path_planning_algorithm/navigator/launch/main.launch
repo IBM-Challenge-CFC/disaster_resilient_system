@@ -1,0 +1,7 @@
+<launch>
+ <!-- Turn on hybrid_astar node -->
+ <node name="path_planning" pkg="path_planning" type="path_planning" /> 
+ <node name="tf_broadcaster" pkg="path_planning" type="tf_broadcaster" />
+ <node name="map_server" pkg="map_server" type="map_server" args="$(find path_planning)/maps/map.yaml" />
+ <node name="rviz" pkg="rviz" type="rviz" args="-d $(find path_planning)/launch/config.rviz" />
+</launch>
